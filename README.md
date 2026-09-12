@@ -5,3 +5,5 @@
 (You can use this environment and your APIs (you can create unlimited email accounts, each granting 1,000,000 Qwen tokens per version, which essentially gives you unlimited Qwen access))
 To run:
 Navigate to the project folder, run `npm install` followed by `npm run dev`. Once the server is up and running, open it in your browser. Visit the website provided in the 'need' file to get a free API.
+-----------------------------------------
+فایل SORAI.sh رو میتونید برای اجرا روی موبایل (ترموکس ، اندروید ) استفاده کنید.
