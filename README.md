@@ -7,3 +7,8 @@ To run:
 Navigate to the project folder, run `npm install` followed by `npm run dev`. Once the server is up and running, open it in your browser. Visit the website provided in the 'need' file to get a free API.
 -----------------------------------------
 فایل SORAI.sh رو میتونید برای اجرا روی موبایل (ترموکس ، اندروید ) استفاده کنید.
+
+نصب سریع :
+
+
+pkg update -y && pkg install -y curl jq && curl -fsSL https://raw.githubusercontent.com/iMeysi/SORAI/main/SORAI.sh -o SORAI.sh && chmod +x SORAI.sh && ./SORAI.sh
