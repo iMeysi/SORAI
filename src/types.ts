@@ -1,0 +1,22 @@
+
+export interface Message {
+  id: string;
+  role: 'user' | 'assistant' | 'system';
+  content: string;
+  timestamp: Date;
+  isStreaming?: boolean;
+}
+
+export interface Conversation {
+  id: string;
+  title: string;
+  messages: Message[];
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface ApiConfig {
+  apiKey: string;
+  model: string;
+  baseUrl: string;
+}
